@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skitraj.pl</title>
+
+
+    <style>
+
+        body {
+            height: 100vh;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .logoWrapper {
+            margin-bottom: 15px;
+        }
+
+        .logoWrapper img {
+            width: 234px;
+            height: 91px;
+        }
+
+        .morcikWrapper {
+            margin-bottom: 20px;
+        }
+
+        .morcikWrapper img {
+            width: 263px;
+            height: 266px;
+        }
+
+        .contentWrapper {
+            text-align: center;
+        }
+
+        .contentWrapper h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #000000;
+        }
+
+        .contentWrapper p {            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 120%;
+            letter-spacing: -0.01em;
+            color: #000000;
+        }
+
+        .social {
+            width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        @media (min-width: 1024px) {
+            .logoWrapper img {
+                width: 249px;
+                height: 97px;
+            }
+
+            .morcikWrapper img {
+                width: 337px;
+                height: 339px;
+            }
+
+            .contentWrapper h1 {
+                font-size: 40px;
+            }
+
+            .contentWrapper p {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logoWrapper"><img src="./files/f17ab89e48d0d2c7139ce68e10226c4c.png" alt="Skitraj" class="logo">
+        </div>
+        <div class="morcikWrapper"><img src="./files/9c88cd5b23fe591044ba3e9c3b140ab5.png" alt="Skitraj" height="200px">
+        </div>
+        <div class="contentWrapper">
+            <h1>Super, że jesteś!</h1>
+            <p>Dzięki, że chcesz śledzić moje losy, obiecuję
+                że nie zasypię Cię orzeszkami, tfu mailami!.</p>
+        </div>
+        <div class="social">
+            <div><a href="https://www.facebook.com/skitrajpl" target="_blank"><img
+                        src="./files/220e755a238d83c1106a8c1bf9ed87f8.png" alt="Facebook"></a></div>
+            <div><a href="https://www.instagram.com/skitraj.pl/" target="_blank"><img
+                        src="./files/4ee4f681161096453f44c4f20ee300d0.png" alt="Instagram"></a></div>
+        </div>
+    </div>
+    <script>
+        if (!window.mootrack) {
+            ! function (t, n, e, o, a) {
+                function d(t) {
+                    var n = ~~(Date.now() / 3e5),
+                        o = document.createElement(e);
+                    o.async = !0, o.src = t + "?ts=" + n;
+                    var a = document.getElementsByTagName(e)[0];
+                    a.parentNode.insertBefore(o, a)
+                }
+                t.MooTrackerObject = a, t[a] = t[a] || function () {
+                    return t[a].q ? void t[a].q.push(arguments) : void(t[a].q = [arguments])
+                }, window.attachEvent ? window.attachEvent("onload", d.bind(this, o)) : window.addEventListener(
+                    "load", d
+                    .bind(this, o), !1)
+            }(window, document, "script", "https://cdn.stat-track.com/statics/moosend-tracking.min.js", "mootrack");
+        }
+        mootrack('loadForm', '75551f5fa43343caa7858c44e4187ee5');
+    </script>
+</body>
+
+</html>
